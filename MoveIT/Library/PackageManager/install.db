@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.qualcomm.snapdragon.spaces": {
+      "tarball": {
+        "hash": "948ea3f14088",
+        "mtime": 1673615695235,
+        "size": 8003227,
+        "localPath": "C:\\Users\\sophi\\OneDrive\\Desktop\\Hackathon\\Snapdragon_Spaces_SDK_for_Unity_0_9_0\\Unity Package\\SnapdragonSpaces_Package_0_9_0.tgz"
+      }
+    }
+  }
+}
