@@ -39,6 +39,12 @@ EditorBuildSettings:
     path: Assets/Samples/Snapdragon Spaces/0.9.0/Core Samples/Scenes/XR Interaction
       Toolkit Sample/XR Interaction Toolkit Sample.unity
     guid: 457c784199db14427a9e59e7acbf15a2
+  - enabled: 0
+    path: Assets/Scenes/Test/test menu.unity
+    guid: bcd524d66af232540a79424313d417a2
+  - enabled: 0
+    path: Assets/Scenes/Test/Test Scene.unity
+    guid: 368cf6d3fd451f547b6fd0291b26d6c4
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: b23651f7dcbc3094cbd395c21bdd7b57, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 68024c87d36fce3489ba413302a508a5, type: 2}
