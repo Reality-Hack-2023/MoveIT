@@ -14,16 +14,8 @@ EditorBuildSettings:
       Sample - Proximal.unity
     guid: de86db1391dedd94ea64dece7f811d6d
   - enabled: 0
-<<<<<<< Updated upstream
-    path: Assets/Samples/Snapdragon Spaces/0.9.0/Core Samples/Scenes/Main Menu/Main
-      Menu.unity
-    guid: 2b406ea90420fc841839c843c6bfc3d5
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
 =======
->>>>>>> Stashed changes
+  - enabled: 0
     path: Assets/Scenes/Squirrel Game.unity
     guid: 7f6052019a1504ac09ac3e728b12dd65
   - enabled: 0

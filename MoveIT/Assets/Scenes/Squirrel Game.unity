@@ -543,7 +543,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e2564b58fd94644b494de4f6467fc9ec, type: 3}
       propertyPath: m_Name
-      value: Squirrell 3
+      value: Squirrel 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2564b58fd94644b494de4f6467fc9ec, type: 3}
@@ -1088,7 +1088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a977648bf72ab4207a82f717727f2dfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acorn: {fileID: 631517983187662388, guid: a1614a38ad18647cca4ddc8ebb755ba2, type: 3}
+  acorn: {fileID: 524099428591554131, guid: 55f40d3e82cac674ab75c61a7a3b7ebf, type: 3}
   time: 0
   timeInterval: 2
   acornsFell: 0
@@ -1386,7 +1386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e2564b58fd94644b494de4f6467fc9ec, type: 3}
       propertyPath: m_Name
-      value: Squirrell 2
+      value: Squirrel 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2564b58fd94644b494de4f6467fc9ec, type: 3}
@@ -1455,7 +1455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e2564b58fd94644b494de4f6467fc9ec, type: 3}
       propertyPath: m_Name
-      value: Squirrell
+      value: Squirrel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2564b58fd94644b494de4f6467fc9ec, type: 3}
