@@ -543,7 +543,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e2564b58fd94644b494de4f6467fc9ec, type: 3}
       propertyPath: m_Name
-      value: Squirrell 3
+      value: Squirrel 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2564b58fd94644b494de4f6467fc9ec, type: 3}
@@ -1386,7 +1386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e2564b58fd94644b494de4f6467fc9ec, type: 3}
       propertyPath: m_Name
-      value: Squirrell 2
+      value: Squirrel 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2564b58fd94644b494de4f6467fc9ec, type: 3}
@@ -1455,7 +1455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e2564b58fd94644b494de4f6467fc9ec, type: 3}
       propertyPath: m_Name
-      value: Squirrell
+      value: Squirrel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2564b58fd94644b494de4f6467fc9ec, type: 3}
