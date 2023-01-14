@@ -1139,6 +1139,13 @@ static void U3CU3Ec_t7A3A575633A304D6C9A49019D8DA35F37F87F9D3_CustomAttributesCa
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 }
+static void U3CU3Ec__DisplayClass1_0_t718A054E9692E52740613AF2B8898306998B667C_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+	}
+}
 static void SpacesHand_t9D15E49CBF6679EB7196D1395B182FC045A46ABB_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
@@ -1368,12 +1375,12 @@ static void Cinfo_t6786EB30C5215AF6AFF97CF782429DCBA8204191_CustomAttributesCach
 static void Cinfo_t6786EB30C5215AF6AFF97CF782429DCBA8204191_CustomAttributesCacheGenerator_Cinfo_get_id_m3A8894EF9C6DADBDE5EAD91A941F5FA26DBF96BC(CustomAttributesCache* cache)
 {
 	{
-		IsReadOnlyAttribute_t5C5D9FCA6993D74EF682EB8E1B77A6700BE49342 * tmp = (IsReadOnlyAttribute_t5C5D9FCA6993D74EF682EB8E1B77A6700BE49342 *)cache->attributes[0];
-		IsReadOnlyAttribute__ctor_mD34BDCC3F96314EFB29804E32F3039175B883254(tmp, NULL);
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[1];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+		IsReadOnlyAttribute_t5C5D9FCA6993D74EF682EB8E1B77A6700BE49342 * tmp = (IsReadOnlyAttribute_t5C5D9FCA6993D74EF682EB8E1B77A6700BE49342 *)cache->attributes[1];
+		IsReadOnlyAttribute__ctor_mD34BDCC3F96314EFB29804E32F3039175B883254(tmp, NULL);
 	}
 }
 static void Cinfo_t6786EB30C5215AF6AFF97CF782429DCBA8204191_CustomAttributesCacheGenerator_Cinfo_set_id_m7C2461DECADB6884116D0C14DC72E2F285B9BE48(CustomAttributesCache* cache)
@@ -1610,12 +1617,12 @@ static void SpacesAnchorStore_tFEED263EA2B4CED0F94F0A8FCD6CBDC20F6BDEF2_CustomAt
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		RequireComponent_tEDA546F9722B8874DA9658BDAB821BA49647FC91 * tmp = (RequireComponent_tEDA546F9722B8874DA9658BDAB821BA49647FC91 *)cache->attributes[0];
-		RequireComponent__ctor_m5EC89D3D22D7D880E1B88A5C9FADF1FBDC713EE4(tmp, il2cpp_codegen_type_get_object(ARAnchorManager_t969330AB785F0DC41EF9F4390D77F7ABA30F7D0F_0_0_0_var), NULL);
+		DisallowMultipleComponent_tDB3D3DBC9AC523A0BD11DA0B7D88F960FDB89E3E * tmp = (DisallowMultipleComponent_tDB3D3DBC9AC523A0BD11DA0B7D88F960FDB89E3E *)cache->attributes[0];
+		DisallowMultipleComponent__ctor_mDCA4B0F84AB4B3E17D216DB29318032547AB7F0D(tmp, NULL);
 	}
 	{
-		DisallowMultipleComponent_tDB3D3DBC9AC523A0BD11DA0B7D88F960FDB89E3E * tmp = (DisallowMultipleComponent_tDB3D3DBC9AC523A0BD11DA0B7D88F960FDB89E3E *)cache->attributes[1];
-		DisallowMultipleComponent__ctor_mDCA4B0F84AB4B3E17D216DB29318032547AB7F0D(tmp, NULL);
+		RequireComponent_tEDA546F9722B8874DA9658BDAB821BA49647FC91 * tmp = (RequireComponent_tEDA546F9722B8874DA9658BDAB821BA49647FC91 *)cache->attributes[1];
+		RequireComponent__ctor_m5EC89D3D22D7D880E1B88A5C9FADF1FBDC713EE4(tmp, il2cpp_codegen_type_get_object(ARAnchorManager_t969330AB785F0DC41EF9F4390D77F7ABA30F7D0F_0_0_0_var), NULL);
 	}
 }
 static void SpacesAnchorStore_tFEED263EA2B4CED0F94F0A8FCD6CBDC20F6BDEF2_CustomAttributesCacheGenerator_SpacesAnchorStore_SaveAnchor_m5048C038B86911265F59ED1866E6FEEA57108AB5(CustomAttributesCache* cache)
@@ -1738,7 +1745,7 @@ static void U3CPrivateImplementationDetailsU3E_t128EB245148027EEE9CE01EF85587E35
 	}
 }
 IL2CPP_EXTERN_C const CustomAttributesCacheGenerator g_Snapdragon_Spaces_Runtime_AttributeGenerators[];
-const CustomAttributesCacheGenerator g_Snapdragon_Spaces_Runtime_AttributeGenerators[116] = 
+const CustomAttributesCacheGenerator g_Snapdragon_Spaces_Runtime_AttributeGenerators[117] = 
 {
 	EmbeddedAttribute_tBE365BA1516BB45534BCA78DEC1AC75D8C57ABFC_CustomAttributesCacheGenerator,
 	IsReadOnlyAttribute_t5C5D9FCA6993D74EF682EB8E1B77A6700BE49342_CustomAttributesCacheGenerator,
@@ -1748,6 +1755,7 @@ const CustomAttributesCacheGenerator g_Snapdragon_Spaces_Runtime_AttributeGenera
 	XrSpaceLocationFlags_tFBDAFCBD649D2A350CB903F719A1FD00CABBECC9_CustomAttributesCacheGenerator,
 	GetInstanceProcAddrDelegate_tCCF6F53C2FFE3E12F049C6EE8F48C2D88E36C7C8_CustomAttributesCacheGenerator,
 	U3CU3Ec_t7A3A575633A304D6C9A49019D8DA35F37F87F9D3_CustomAttributesCacheGenerator,
+	U3CU3Ec__DisplayClass1_0_t718A054E9692E52740613AF2B8898306998B667C_CustomAttributesCacheGenerator,
 	SpacesHand_t9D15E49CBF6679EB7196D1395B182FC045A46ABB_CustomAttributesCacheGenerator,
 	SpacesHandJointVisualizer_tC51448BD3D72D95848C398A16F92E488F9D25F8A_CustomAttributesCacheGenerator,
 	SpacesHandManager_t21A51180A0CC431510AB7EC5A2AC19F120A8D0CA_CustomAttributesCacheGenerator,

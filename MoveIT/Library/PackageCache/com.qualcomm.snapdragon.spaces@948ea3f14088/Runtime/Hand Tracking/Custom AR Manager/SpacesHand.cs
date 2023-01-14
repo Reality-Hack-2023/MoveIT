@@ -39,7 +39,7 @@ namespace Qualcomm.Snapdragon.Spaces
                 if (_mainHeadTransform == null) {
                     _mainHeadTransform = FindObjectOfType<ARPoseDriver>().transform;
                 }
-                return _rawJoints.Select((pose, index) => new Joint((JointType) index, new Pose(_mainHeadTransform.TransformPoint(pose.position), pose.rotation))).ToArray();
+                return _rawJoints.Select((pose, index) => new Joint((JointType) index, new Pose(_mainHeadTransform.TransformPoint(pose.position), _mainHeadTransform.rotation * pose.rotation))).ToArray();
             }
         }
 

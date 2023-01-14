@@ -1,0 +1,178 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Boolean Microsoft.MixedReality.Toolkit.Speech.Windows.TextToSpeechHelpers::TryConvertWaveData(System.Byte[],System.Int32&,System.Int32&,System.Int32&,System.Single[]&)
+extern void TextToSpeechHelpers_TryConvertWaveData_mA8D26DA74D5A691007A5E022F79393FCACE21AFC (void);
+// 0x00000002 UnityEngine.AudioClip Microsoft.MixedReality.Toolkit.Speech.Windows.TextToSpeechHelpers::CreateAudioClip(System.String,System.Single[],System.Int32,System.Int32,System.Int32)
+extern void TextToSpeechHelpers_CreateAudioClip_m7C23D2D6CAA291FEB6E26247E892322DD8C6EF1A (void);
+// 0x00000003 System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsTextToSpeechSubsystem::Register()
+extern void WindowsTextToSpeechSubsystem_Register_m5FDEFCB3264FBAE4452B731E035456DDADA7B0D4 (void);
+// 0x00000004 System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsTextToSpeechSubsystem::.ctor()
+extern void WindowsTextToSpeechSubsystem__ctor_mAAAC6CF8B9C387F73901234C1B0EED1EF998D9DC (void);
+// 0x00000005 System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsTextToSpeechSubsystem/WindowsTextToSpeechSubsystemProvider::.ctor()
+extern void WindowsTextToSpeechSubsystemProvider__ctor_m39C9658049495A716CBE4A8457252990385F4E03 (void);
+// 0x00000006 System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsTextToSpeechSubsystem/WindowsTextToSpeechSubsystemProvider::Destroy()
+extern void WindowsTextToSpeechSubsystemProvider_Destroy_m2C241D4AB4154D50D57B85C2F73C410FA71B0A2E (void);
+// 0x00000007 System.Threading.Tasks.Task`1<System.Boolean> Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsTextToSpeechSubsystem/WindowsTextToSpeechSubsystemProvider::TrySpeak(System.String,UnityEngine.AudioSource)
+extern void WindowsTextToSpeechSubsystemProvider_TrySpeak_mA1380B303BBAF9A8CCFC86773955CA2CFA22244C (void);
+// 0x00000008 System.Threading.Tasks.Task`1<System.Byte[]> Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsTextToSpeechSubsystem/WindowsTextToSpeechSubsystemProvider::Synthesize(System.String)
+extern void WindowsTextToSpeechSubsystemProvider_Synthesize_m03320EE2C8076F2C5089C2CBDA2B6E283B139C61 (void);
+// 0x00000009 System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsTextToSpeechSubsystem/WindowsTextToSpeechSubsystemProvider/<TrySpeak>d__3::MoveNext()
+extern void U3CTrySpeakU3Ed__3_MoveNext_mB290E29BF733BA3201D75B46B1E84999DD404EDA (void);
+// 0x0000000A System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsTextToSpeechSubsystem/WindowsTextToSpeechSubsystemProvider/<TrySpeak>d__3::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CTrySpeakU3Ed__3_SetStateMachine_mC28EBFB7CA486878C59AF2E0EC3E40DAECBE845A (void);
+// 0x0000000B System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsTextToSpeechSubsystem/WindowsTextToSpeechSubsystemProvider/<Synthesize>d__4::MoveNext()
+extern void U3CSynthesizeU3Ed__4_MoveNext_m9739480EE495C62571D927092D20122625ED80E4 (void);
+// 0x0000000C System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsTextToSpeechSubsystem/WindowsTextToSpeechSubsystemProvider/<Synthesize>d__4::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CSynthesizeU3Ed__4_SetStateMachine_m7E822392C38E2E40E2DDBC52E7EC78C0DBB6EA8C (void);
+// 0x0000000D System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsPhraseRecognitionSubsystem::Register()
+extern void WindowsPhraseRecognitionSubsystem_Register_m3DBF19C43C8755CBF81AD156CE8324251DE18B4E (void);
+// 0x0000000E System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsPhraseRecognitionSubsystem::.ctor()
+extern void WindowsPhraseRecognitionSubsystem__ctor_mE52F7A9D0F4B3204DB7782C65221B3C95A4294D2 (void);
+// 0x0000000F System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsPhraseRecognitionSubsystem/WindowsPhraseRecognitionProvider::.ctor()
+extern void WindowsPhraseRecognitionProvider__ctor_mFCA5D77E108FA7D854FEDC6B3C23A46B0294053B (void);
+// 0x00000010 UnityEngine.Events.UnityEvent Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsPhraseRecognitionSubsystem/WindowsPhraseRecognitionProvider::CreateOrGetEventForPhrase(System.String)
+extern void WindowsPhraseRecognitionProvider_CreateOrGetEventForPhrase_m6AB6F8C366E1C17684DCF34F29CBE48865A9B893 (void);
+// 0x00000011 System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsPhraseRecognitionSubsystem/WindowsPhraseRecognitionProvider::RemovePhrase(System.String)
+extern void WindowsPhraseRecognitionProvider_RemovePhrase_mAB0A1A13E233757F3258AFC488707D07378FE7E9 (void);
+// 0x00000012 System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsPhraseRecognitionSubsystem/WindowsPhraseRecognitionProvider::RemoveAllPhrases()
+extern void WindowsPhraseRecognitionProvider_RemoveAllPhrases_m580CD0529780A29E12D9B0F87B259F4929969B1E (void);
+// 0x00000013 System.Collections.Generic.IReadOnlyDictionary`2<System.String,UnityEngine.Events.UnityEvent> Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsPhraseRecognitionSubsystem/WindowsPhraseRecognitionProvider::GetAllPhrases()
+extern void WindowsPhraseRecognitionProvider_GetAllPhrases_m258D2675793EEDC6B2372939E0AB1AC846FAB695 (void);
+// 0x00000014 System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsPhraseRecognitionSubsystemConfig::.ctor()
+extern void WindowsPhraseRecognitionSubsystemConfig__ctor_m91ABCCDA5BBA52A48389566BA1841483A9350853 (void);
+// 0x00000015 System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsSpeechRecognitionSubsystem::Register()
+extern void WindowsSpeechRecognitionSubsystem_Register_m75082D64900A4C6444E6CD23082ABB585A14D715 (void);
+// 0x00000016 System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsSpeechRecognitionSubsystem::.ctor()
+extern void WindowsSpeechRecognitionSubsystem__ctor_mB75D82884DA000B3F998303E8E6E5C638EF1C42B (void);
+// 0x00000017 System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsSpeechRecognitionSubsystem/WindowsSpeechRecognitionProvider::.ctor()
+extern void WindowsSpeechRecognitionProvider__ctor_m9432D8F2B75DD2DBE74CED95F535805FB21D7058 (void);
+// 0x00000018 System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsSpeechRecognitionSubsystem/WindowsSpeechRecognitionProvider::Destroy()
+extern void WindowsSpeechRecognitionProvider_Destroy_m02366B1673EA57D16ADEA775E978476F9D680128 (void);
+// 0x00000019 System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsSpeechRecognitionSubsystem/WindowsSpeechRecognitionProvider::StartRecognition()
+extern void WindowsSpeechRecognitionProvider_StartRecognition_m9CAC4DC2554F08A9CF210B3DD1CEE5915281FCF7 (void);
+// 0x0000001A System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsSpeechRecognitionSubsystem/WindowsSpeechRecognitionProvider::StopRecognition()
+extern void WindowsSpeechRecognitionProvider_StopRecognition_m1F84DD5DAC60F0DB102BBA699B56F0BA38601D42 (void);
+// 0x0000001B System.Single Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsSpeechRecognitionSubsystemConfig::get_InitialSilenceTimeoutSeconds()
+extern void WindowsSpeechRecognitionSubsystemConfig_get_InitialSilenceTimeoutSeconds_m94D72AA120E230C465B924975152B1024449BA1E (void);
+// 0x0000001C System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsSpeechRecognitionSubsystemConfig::set_InitialSilenceTimeoutSeconds(System.Single)
+extern void WindowsSpeechRecognitionSubsystemConfig_set_InitialSilenceTimeoutSeconds_m604476577B40700E5E03FC5100FF45C1C43F4534 (void);
+// 0x0000001D System.Single Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsSpeechRecognitionSubsystemConfig::get_AutoSilenceTimeout()
+extern void WindowsSpeechRecognitionSubsystemConfig_get_AutoSilenceTimeout_m1F5DE5C6CF9D7EFA17F86B3FD6EECECD43EA51F6 (void);
+// 0x0000001E System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsSpeechRecognitionSubsystemConfig::set_AutoSilenceTimeout(System.Single)
+extern void WindowsSpeechRecognitionSubsystemConfig_set_AutoSilenceTimeout_mCFEEDBCADD55DD78221B35B40AF35EEB4EDECE52 (void);
+// 0x0000001F System.Void Microsoft.MixedReality.Toolkit.Speech.Windows.WindowsSpeechRecognitionSubsystemConfig::.ctor()
+extern void WindowsSpeechRecognitionSubsystemConfig__ctor_m9E392CFD4700C9C6A720DBBFEC066B30FCE8676F (void);
+static Il2CppMethodPointer s_methodPointers[31] = 
+{
+	TextToSpeechHelpers_TryConvertWaveData_mA8D26DA74D5A691007A5E022F79393FCACE21AFC,
+	TextToSpeechHelpers_CreateAudioClip_m7C23D2D6CAA291FEB6E26247E892322DD8C6EF1A,
+	WindowsTextToSpeechSubsystem_Register_m5FDEFCB3264FBAE4452B731E035456DDADA7B0D4,
+	WindowsTextToSpeechSubsystem__ctor_mAAAC6CF8B9C387F73901234C1B0EED1EF998D9DC,
+	WindowsTextToSpeechSubsystemProvider__ctor_m39C9658049495A716CBE4A8457252990385F4E03,
+	WindowsTextToSpeechSubsystemProvider_Destroy_m2C241D4AB4154D50D57B85C2F73C410FA71B0A2E,
+	WindowsTextToSpeechSubsystemProvider_TrySpeak_mA1380B303BBAF9A8CCFC86773955CA2CFA22244C,
+	WindowsTextToSpeechSubsystemProvider_Synthesize_m03320EE2C8076F2C5089C2CBDA2B6E283B139C61,
+	U3CTrySpeakU3Ed__3_MoveNext_mB290E29BF733BA3201D75B46B1E84999DD404EDA,
+	U3CTrySpeakU3Ed__3_SetStateMachine_mC28EBFB7CA486878C59AF2E0EC3E40DAECBE845A,
+	U3CSynthesizeU3Ed__4_MoveNext_m9739480EE495C62571D927092D20122625ED80E4,
+	U3CSynthesizeU3Ed__4_SetStateMachine_m7E822392C38E2E40E2DDBC52E7EC78C0DBB6EA8C,
+	WindowsPhraseRecognitionSubsystem_Register_m3DBF19C43C8755CBF81AD156CE8324251DE18B4E,
+	WindowsPhraseRecognitionSubsystem__ctor_mE52F7A9D0F4B3204DB7782C65221B3C95A4294D2,
+	WindowsPhraseRecognitionProvider__ctor_mFCA5D77E108FA7D854FEDC6B3C23A46B0294053B,
+	WindowsPhraseRecognitionProvider_CreateOrGetEventForPhrase_m6AB6F8C366E1C17684DCF34F29CBE48865A9B893,
+	WindowsPhraseRecognitionProvider_RemovePhrase_mAB0A1A13E233757F3258AFC488707D07378FE7E9,
+	WindowsPhraseRecognitionProvider_RemoveAllPhrases_m580CD0529780A29E12D9B0F87B259F4929969B1E,
+	WindowsPhraseRecognitionProvider_GetAllPhrases_m258D2675793EEDC6B2372939E0AB1AC846FAB695,
+	WindowsPhraseRecognitionSubsystemConfig__ctor_m91ABCCDA5BBA52A48389566BA1841483A9350853,
+	WindowsSpeechRecognitionSubsystem_Register_m75082D64900A4C6444E6CD23082ABB585A14D715,
+	WindowsSpeechRecognitionSubsystem__ctor_mB75D82884DA000B3F998303E8E6E5C638EF1C42B,
+	WindowsSpeechRecognitionProvider__ctor_m9432D8F2B75DD2DBE74CED95F535805FB21D7058,
+	WindowsSpeechRecognitionProvider_Destroy_m02366B1673EA57D16ADEA775E978476F9D680128,
+	WindowsSpeechRecognitionProvider_StartRecognition_m9CAC4DC2554F08A9CF210B3DD1CEE5915281FCF7,
+	WindowsSpeechRecognitionProvider_StopRecognition_m1F84DD5DAC60F0DB102BBA699B56F0BA38601D42,
+	WindowsSpeechRecognitionSubsystemConfig_get_InitialSilenceTimeoutSeconds_m94D72AA120E230C465B924975152B1024449BA1E,
+	WindowsSpeechRecognitionSubsystemConfig_set_InitialSilenceTimeoutSeconds_m604476577B40700E5E03FC5100FF45C1C43F4534,
+	WindowsSpeechRecognitionSubsystemConfig_get_AutoSilenceTimeout_m1F5DE5C6CF9D7EFA17F86B3FD6EECECD43EA51F6,
+	WindowsSpeechRecognitionSubsystemConfig_set_AutoSilenceTimeout_mCFEEDBCADD55DD78221B35B40AF35EEB4EDECE52,
+	WindowsSpeechRecognitionSubsystemConfig__ctor_m9E392CFD4700C9C6A720DBBFEC066B30FCE8676F,
+};
+extern void U3CTrySpeakU3Ed__3_MoveNext_mB290E29BF733BA3201D75B46B1E84999DD404EDA_AdjustorThunk (void);
+extern void U3CTrySpeakU3Ed__3_SetStateMachine_mC28EBFB7CA486878C59AF2E0EC3E40DAECBE845A_AdjustorThunk (void);
+extern void U3CSynthesizeU3Ed__4_MoveNext_m9739480EE495C62571D927092D20122625ED80E4_AdjustorThunk (void);
+extern void U3CSynthesizeU3Ed__4_SetStateMachine_m7E822392C38E2E40E2DDBC52E7EC78C0DBB6EA8C_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[4] = 
+{
+	{ 0x06000009, U3CTrySpeakU3Ed__3_MoveNext_mB290E29BF733BA3201D75B46B1E84999DD404EDA_AdjustorThunk },
+	{ 0x0600000A, U3CTrySpeakU3Ed__3_SetStateMachine_mC28EBFB7CA486878C59AF2E0EC3E40DAECBE845A_AdjustorThunk },
+	{ 0x0600000B, U3CSynthesizeU3Ed__4_MoveNext_m9739480EE495C62571D927092D20122625ED80E4_AdjustorThunk },
+	{ 0x0600000C, U3CSynthesizeU3Ed__4_SetStateMachine_m7E822392C38E2E40E2DDBC52E7EC78C0DBB6EA8C_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[31] = 
+{
+	4587,
+	4711,
+	6765,
+	4322,
+	4322,
+	4322,
+	1499,
+	3035,
+	4322,
+	3433,
+	4322,
+	3433,
+	6765,
+	4322,
+	4322,
+	3035,
+	3433,
+	4322,
+	4255,
+	4322,
+	6765,
+	4322,
+	4322,
+	4322,
+	4322,
+	4322,
+	4287,
+	3460,
+	4287,
+	3460,
+	4322,
+};
+extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_Toolkit_Speech_Windows_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Speech_Windows_CodeGenModule;
+const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Speech_Windows_CodeGenModule = 
+{
+	"Microsoft.MixedReality.Toolkit.Speech.Windows.dll",
+	31,
+	s_methodPointers,
+	4,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	g_Microsoft_MixedReality_Toolkit_Speech_Windows_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

@@ -62,6 +62,8 @@ struct IntegratedSubsystem_1_t2737E0F52E6DC7B2E3D42D1B05C5FD7C9FDE4EA4;
 struct IntegratedSubsystem_1_tD5C4AF38726B9433CFC3CA0F889D8C8C2535AEFE;
 // UnityEngine.IntegratedSubsystem`1<UnityEngine.XR.XRMeshSubsystemDescriptor>
 struct IntegratedSubsystem_1_t902A5B61CE879B3CD855E5CE6CAEEB1B9752E840;
+// System.Collections.Generic.List`1<UnityEngine.XR.Bone>
+struct List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5;
 // System.Collections.Generic.List`1<UnityEngine.XR.InputDevice>
 struct List_1_t476C8CC2E74FC5F7DE5B5CFE6830822665402F1F;
 // System.Collections.Generic.List`1<UnityEngine.XR.MeshInfo>
@@ -72,6 +74,8 @@ struct List_1_t1F1C2C7D92FB6DF4FCD88B0AB0919AEAB3B45F6B;
 struct List_1_t39579540B4BF5D674E4CAA282D3CEA957BCB90D4;
 // System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState>
 struct List_1_t82E4873F3D4F1E8645F8EAD444668DC81AB70671;
+// UnityEngine.XR.Bone[]
+struct BoneU5BU5D_t2272F77511BCE614BA7A8E6713E4086CAE20D9B6;
 // System.Char[]
 struct CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34;
 // System.Delegate[]
@@ -211,6 +215,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralC8E4099C5B3BD54FEF6692054B61857D790EA02E
 IL2CPP_EXTERN_C String_t* _stringLiteralC8E762418D8614D739AB43D7D2C189A29AF1145F;
 IL2CPP_EXTERN_C String_t* _stringLiteralCBE7365360EB45A9634579259D49C165CB873442;
 IL2CPP_EXTERN_C String_t* _stringLiteralCD42F30283C4CE60465C4010C800AD9704733102;
+IL2CPP_EXTERN_C String_t* _stringLiteralD8A2F5BF2E135F1890B100839FD2F3B05AC1F1EE;
 IL2CPP_EXTERN_C String_t* _stringLiteralD8FEC942054577466215DA5251FB602E014D433B;
 IL2CPP_EXTERN_C String_t* _stringLiteralD95E0F430871054A7F508E89236049195FE4C4B4;
 IL2CPP_EXTERN_C String_t* _stringLiteralDAE5C8C7FC887DC7AC6D80AE8A8715E4DFB5462B;
@@ -235,7 +240,9 @@ IL2CPP_EXTERN_C const RuntimeMethod* Action_1_Invoke_mD7440CB91FE64B4EAD0D342480
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m11F64ED5C59482D991DECEB78DB84602AE632F92_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m23702EF6B11A2136B37C92CFEFEB678510A98A69_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mC70E3278A727B2503C0497F3FE0869E1897413BB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Hand_TryGetFingerBones_mFA237811578942428A5EEA801791B1A3CE8C651A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputDevice_CheckValidAndSetDefault_TisBoolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_mF81ACFBF626DAB523DDBAA1600546892AA684013_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* InputDevice_CheckValidAndSetDefault_TisHand_tB64007EC8D01384426C93432737BA9C5F636A690_m1214B55371211E71DCC5324899D8201E8B88F3A8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputDevice_CheckValidAndSetDefault_TisHapticCapabilities_t5F9251128925902FD152B6653ECF56816B41277D_m5E77B26FC38C56D849CE14EBEDDD2906BE83511A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputDevice_CheckValidAndSetDefault_TisQuaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4_m318BA27D054B0B3AD603459D7319D71A5F1628BC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputDevice_CheckValidAndSetDefault_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m4D94D31E9E50C44EDE9D0F940CBA6D8F0B6FAC3D_RuntimeMethod_var;
@@ -256,6 +263,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* InputFeatureUsage_1_get_name_m2A1BC148C144E
 IL2CPP_EXTERN_C const RuntimeMethod* InputFeatureUsage_1_get_name_m32B2541C7F12573D226E83F6969409B1DE6374B7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputFeatureUsage_1_get_name_m3732CF9955C758D341A6605EEF5F83A9702B0974_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputFeatureUsage_1_get_name_m3C10F5DE7985A0C8DAFEBBB452E36FA42143DE30_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* InputFeatureUsage_1_get_name_m7F9935014B362A751B6B8BFD7B6365A530A2883C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputFeatureUsage_1_get_name_mA33063D6A4746AFEC44A8019910A97DF7C0F1178_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputFeatureUsage_1_get_name_mB77B23ABBBDC4E924A8D17797EFD3488110EA770_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputTracking_GetNodeStates_m0C47A6D099EE6EAC2D64B2D1D23DA72E4D42B880_RuntimeMethod_var;
@@ -297,6 +305,73 @@ public:
 
 
 // System.Object
+
+
+// System.Collections.Generic.List`1<UnityEngine.XR.Bone>
+struct List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5  : public RuntimeObject
+{
+public:
+	// T[] System.Collections.Generic.List`1::_items
+	BoneU5BU5D_t2272F77511BCE614BA7A8E6713E4086CAE20D9B6* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject * ____syncRoot_4;
+
+public:
+	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5, ____items_1)); }
+	inline BoneU5BU5D_t2272F77511BCE614BA7A8E6713E4086CAE20D9B6* get__items_1() const { return ____items_1; }
+	inline BoneU5BU5D_t2272F77511BCE614BA7A8E6713E4086CAE20D9B6** get_address_of__items_1() { return &____items_1; }
+	inline void set__items_1(BoneU5BU5D_t2272F77511BCE614BA7A8E6713E4086CAE20D9B6* value)
+	{
+		____items_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____items_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5, ____size_2)); }
+	inline int32_t get__size_2() const { return ____size_2; }
+	inline int32_t* get_address_of__size_2() { return &____size_2; }
+	inline void set__size_2(int32_t value)
+	{
+		____size_2 = value;
+	}
+
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5, ____version_3)); }
+	inline int32_t get__version_3() const { return ____version_3; }
+	inline int32_t* get_address_of__version_3() { return &____version_3; }
+	inline void set__version_3(int32_t value)
+	{
+		____version_3 = value;
+	}
+
+	inline static int32_t get_offset_of__syncRoot_4() { return static_cast<int32_t>(offsetof(List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5, ____syncRoot_4)); }
+	inline RuntimeObject * get__syncRoot_4() const { return ____syncRoot_4; }
+	inline RuntimeObject ** get_address_of__syncRoot_4() { return &____syncRoot_4; }
+	inline void set__syncRoot_4(RuntimeObject * value)
+	{
+		____syncRoot_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____syncRoot_4), (void*)value);
+	}
+};
+
+struct List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5_StaticFields
+{
+public:
+	// T[] System.Collections.Generic.List`1::_emptyArray
+	BoneU5BU5D_t2272F77511BCE614BA7A8E6713E4086CAE20D9B6* ____emptyArray_5;
+
+public:
+	inline static int32_t get_offset_of__emptyArray_5() { return static_cast<int32_t>(offsetof(List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5_StaticFields, ____emptyArray_5)); }
+	inline BoneU5BU5D_t2272F77511BCE614BA7A8E6713E4086CAE20D9B6* get__emptyArray_5() const { return ____emptyArray_5; }
+	inline BoneU5BU5D_t2272F77511BCE614BA7A8E6713E4086CAE20D9B6** get_address_of__emptyArray_5() { return &____emptyArray_5; }
+	inline void set__emptyArray_5(BoneU5BU5D_t2272F77511BCE614BA7A8E6713E4086CAE20D9B6* value)
+	{
+		____emptyArray_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____emptyArray_5), (void*)value);
+	}
+};
 
 
 // System.Collections.Generic.List`1<UnityEngine.XR.InputDevice>
@@ -3039,6 +3114,24 @@ public:
 };
 
 
+// UnityEngine.XR.HandFinger
+struct HandFinger_tAA6A38629AA6A36391AE4CC05D54BE89105EED35 
+{
+public:
+	// System.Int32 UnityEngine.XR.HandFinger::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(HandFinger_tAA6A38629AA6A36391AE4CC05D54BE89105EED35, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // UnityEngine.XR.InputDeviceCharacteristics
 struct InputDeviceCharacteristics_t0C34BAC0C6F661161E2DA1677CD590273F1C9C64 
 {
@@ -4471,6 +4564,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputFeatureUsage_1_get
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_CheckValidAndSetDefault_TisQuaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4_m318BA27D054B0B3AD603459D7319D71A5F1628BC_gshared (InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E * __this, Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 * ___value0, const RuntimeMethod* method);
 // System.String UnityEngine.XR.InputFeatureUsage`1<UnityEngine.Quaternion>::get_name()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputFeatureUsage_1_get_name_m3C10F5DE7985A0C8DAFEBBB452E36FA42143DE30_gshared_inline (InputFeatureUsage_1_t152DE78832E6E5157647309AA0BF7CFC75F44A49 * __this, const RuntimeMethod* method);
+// System.Boolean UnityEngine.XR.InputDevice::CheckValidAndSetDefault<UnityEngine.XR.Hand>(T&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_CheckValidAndSetDefault_TisHand_tB64007EC8D01384426C93432737BA9C5F636A690_m1214B55371211E71DCC5324899D8201E8B88F3A8_gshared (InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E * __this, Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * ___value0, const RuntimeMethod* method);
+// System.String UnityEngine.XR.InputFeatureUsage`1<UnityEngine.XR.Hand>::get_name()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputFeatureUsage_1_get_name_m7F9935014B362A751B6B8BFD7B6365A530A2883C_gshared_inline (InputFeatureUsage_1_tE0761BFB6E30AE61DA99E3B1974C8A2B784A335E * __this, const RuntimeMethod* method);
 // System.String UnityEngine.XR.InputFeatureUsage`1<System.UInt32Enum>::get_name()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputFeatureUsage_1_get_name_mC8656C0D00863F34FA8DD9867901C6D693CAC033_gshared_inline (InputFeatureUsage_1_t6914D487EFC663AE00B3D7725DD123A5814507D6 * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<UnityEngine.XR.InputDevice>::Clear()
@@ -4508,6 +4605,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_mC3DCAEAD9DC81FE145B4FE1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Bone_get_deviceId_mF1EBAD176E69C1074F55BFFF36372A48840B2FA2 (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * __this, const RuntimeMethod* method);
 // System.UInt32 UnityEngine.XR.Bone::get_featureIndex()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Bone_get_featureIndex_m291227F499665BECC9D40723157367ECB56781C3 (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * __this, const RuntimeMethod* method);
+// System.Boolean UnityEngine.XR.Bone::Bone_TryGetPosition(UnityEngine.XR.Bone,UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Bone_Bone_TryGetPosition_m22A625B13260BE42925C1518266BBC09FD8C5FBB (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070  ___bone0, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___position1, const RuntimeMethod* method);
+// System.Boolean UnityEngine.XR.Bone::TryGetPosition(UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Bone_TryGetPosition_m261057D3419C036E0CEE6F42398398601977DD0A (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___position0, const RuntimeMethod* method);
+// System.Boolean UnityEngine.XR.Bone::Bone_TryGetPosition_Injected(UnityEngine.XR.Bone&,UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Bone_Bone_TryGetPosition_Injected_m44795BBEAC75C858D833DA5ACEA8741ED15967F9 (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * ___bone0, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___position1, const RuntimeMethod* method);
+// System.Boolean UnityEngine.XR.Bone::Bone_TryGetRotation(UnityEngine.XR.Bone,UnityEngine.Quaternion&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Bone_Bone_TryGetRotation_m19A25AEFF00BF66E14D211FAEFAAF16367F8FD87 (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070  ___bone0, Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 * ___rotation1, const RuntimeMethod* method);
+// System.Boolean UnityEngine.XR.Bone::TryGetRotation(UnityEngine.Quaternion&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Bone_TryGetRotation_mEB7B9EED27F1BD731F9ECB467CFC3B3A475CBF69 (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * __this, Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 * ___rotation0, const RuntimeMethod* method);
+// System.Boolean UnityEngine.XR.Bone::Bone_TryGetRotation_Injected(UnityEngine.XR.Bone&,UnityEngine.Quaternion&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Bone_Bone_TryGetRotation_Injected_mDEE3DDC7EF60BC479C091452B6CA3B73BD1B7B04 (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * ___bone0, Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 * ___rotation1, const RuntimeMethod* method);
 // System.Boolean UnityEngine.XR.Bone::Equals(UnityEngine.XR.Bone)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Bone_Equals_m025222EEBF2374226C62C32E1A7ADE3538C13AFB (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * __this, Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070  ___other0, const RuntimeMethod* method);
 // System.Boolean UnityEngine.XR.Bone::Equals(System.Object)
@@ -4574,6 +4683,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Eyes_GetHashCode_mA9742A7C19500C6C17E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Hand_get_deviceId_mD45907CDFDBF2CE754444358020196A8C6BEE3D1 (Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * __this, const RuntimeMethod* method);
 // System.UInt32 UnityEngine.XR.Hand::get_featureIndex()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Hand_get_featureIndex_mB8A458180449B2C2D38D5405BA26577CF1A60897 (Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * __this, const RuntimeMethod* method);
+// System.Boolean UnityEngine.XR.Hand::Hand_TryGetRootBone(UnityEngine.XR.Hand,UnityEngine.XR.Bone&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hand_Hand_TryGetRootBone_m90E546876CB43AC9C98F14615ADE09497BAD75F4 (Hand_tB64007EC8D01384426C93432737BA9C5F636A690  ___hand0, Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * ___boneOut1, const RuntimeMethod* method);
+// System.Boolean UnityEngine.XR.Hand::TryGetRootBone(UnityEngine.XR.Bone&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hand_TryGetRootBone_m8E5DF1CA9963878F23AD9099E5E80399DAEC02AF (Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * __this, Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * ___boneOut0, const RuntimeMethod* method);
+// System.Boolean UnityEngine.XR.Hand::Hand_TryGetRootBone_Injected(UnityEngine.XR.Hand&,UnityEngine.XR.Bone&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hand_Hand_TryGetRootBone_Injected_m9E8AE2BD012365B63934A1098E68243504139F0F (Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * ___hand0, Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * ___boneOut1, const RuntimeMethod* method);
+// System.Void System.ArgumentNullException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_m81AB157B93BFE2FBFDB08B88F84B444293042F97 (ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB * __this, String_t* ___paramName0, const RuntimeMethod* method);
+// System.Boolean UnityEngine.XR.Hand::Hand_TryGetFingerBonesAsList(UnityEngine.XR.Hand,UnityEngine.XR.HandFinger,System.Collections.Generic.List`1<UnityEngine.XR.Bone>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hand_Hand_TryGetFingerBonesAsList_mF452C2FB21FB75E3CEEF9992672EAD8184023ACB (Hand_tB64007EC8D01384426C93432737BA9C5F636A690  ___hand0, int32_t ___finger1, List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5 * ___bonesOut2, const RuntimeMethod* method);
+// System.Boolean UnityEngine.XR.Hand::TryGetFingerBones(UnityEngine.XR.HandFinger,System.Collections.Generic.List`1<UnityEngine.XR.Bone>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hand_TryGetFingerBones_mFA237811578942428A5EEA801791B1A3CE8C651A (Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * __this, int32_t ___finger0, List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5 * ___bonesOut1, const RuntimeMethod* method);
+// System.Boolean UnityEngine.XR.Hand::Hand_TryGetFingerBonesAsList_Injected(UnityEngine.XR.Hand&,UnityEngine.XR.HandFinger,System.Collections.Generic.List`1<UnityEngine.XR.Bone>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hand_Hand_TryGetFingerBonesAsList_Injected_mE2F7FD42C27F1EB51232E1DC04E7588AFC6B0485 (Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * ___hand0, int32_t ___finger1, List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5 * ___bonesOut2, const RuntimeMethod* method);
 // System.Boolean UnityEngine.XR.Hand::Equals(UnityEngine.XR.Hand)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hand_Equals_m099C7921633095BB40C830B6F5558F99ED0D7BD0 (Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * __this, Hand_tB64007EC8D01384426C93432737BA9C5F636A690  ___other0, const RuntimeMethod* method);
 // System.Boolean UnityEngine.XR.Hand::Equals(System.Object)
@@ -4703,6 +4826,20 @@ inline String_t* InputFeatureUsage_1_get_name_m3C10F5DE7985A0C8DAFEBBB452E36FA42
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevices_TryGetFeatureValue_Quaternionf_m311EFFC92912AC9979DAAC31C642202D5E7E26EB (uint64_t ___deviceId0, String_t* ___usage1, Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 * ___value2, const RuntimeMethod* method);
 // System.Boolean UnityEngine.XR.InputDevice::TryGetFeatureValue(UnityEngine.XR.InputFeatureUsage`1<UnityEngine.Quaternion>,UnityEngine.Quaternion&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_TryGetFeatureValue_mD5DCBE5046B0EAF63A26EB4DF5AE46030C18F7A0 (InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E * __this, InputFeatureUsage_1_t152DE78832E6E5157647309AA0BF7CFC75F44A49  ___usage0, Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 * ___value1, const RuntimeMethod* method);
+// System.Boolean UnityEngine.XR.InputDevice::CheckValidAndSetDefault<UnityEngine.XR.Hand>(T&)
+inline bool InputDevice_CheckValidAndSetDefault_TisHand_tB64007EC8D01384426C93432737BA9C5F636A690_m1214B55371211E71DCC5324899D8201E8B88F3A8 (InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E * __this, Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * ___value0, const RuntimeMethod* method)
+{
+	return ((  bool (*) (InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E *, Hand_tB64007EC8D01384426C93432737BA9C5F636A690 *, const RuntimeMethod*))InputDevice_CheckValidAndSetDefault_TisHand_tB64007EC8D01384426C93432737BA9C5F636A690_m1214B55371211E71DCC5324899D8201E8B88F3A8_gshared)(__this, ___value0, method);
+}
+// System.String UnityEngine.XR.InputFeatureUsage`1<UnityEngine.XR.Hand>::get_name()
+inline String_t* InputFeatureUsage_1_get_name_m7F9935014B362A751B6B8BFD7B6365A530A2883C_inline (InputFeatureUsage_1_tE0761BFB6E30AE61DA99E3B1974C8A2B784A335E * __this, const RuntimeMethod* method)
+{
+	return ((  String_t* (*) (InputFeatureUsage_1_tE0761BFB6E30AE61DA99E3B1974C8A2B784A335E *, const RuntimeMethod*))InputFeatureUsage_1_get_name_m7F9935014B362A751B6B8BFD7B6365A530A2883C_gshared_inline)(__this, method);
+}
+// System.Boolean UnityEngine.XR.InputDevices::TryGetFeatureValue_XRHand(System.UInt64,System.String,UnityEngine.XR.Hand&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevices_TryGetFeatureValue_XRHand_m8C6562E01E779A2AE439B88BF2DBC20324370BB2 (uint64_t ___deviceId0, String_t* ___usage1, Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * ___value2, const RuntimeMethod* method);
+// System.Boolean UnityEngine.XR.InputDevice::TryGetFeatureValue(UnityEngine.XR.InputFeatureUsage`1<UnityEngine.XR.Hand>,UnityEngine.XR.Hand&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_TryGetFeatureValue_mC71ECD9D8F61BB5D594DD9DFB33D1ED86698EC0D (InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E * __this, InputFeatureUsage_1_tE0761BFB6E30AE61DA99E3B1974C8A2B784A335E  ___usage0, Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * ___value1, const RuntimeMethod* method);
 // System.String UnityEngine.XR.InputFeatureUsage`1<UnityEngine.XR.InputTrackingState>::get_name()
 inline String_t* InputFeatureUsage_1_get_name_m2A1BC148C144EA9D7BB6149C4B3216EE1188107B_inline (InputFeatureUsage_1_t6C373EE0FA4FD8646D31410FB0FD222C5C1E9E65 * __this, const RuntimeMethod* method)
 {
@@ -4720,8 +4857,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_Equals_mF29A225E81A87941551F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputDevice_GetHashCode_mFD9C9A6015B91E254DD53E14651C8D08F715D7F8 (InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E * __this, const RuntimeMethod* method);
 // System.UInt64 UnityEngine.XR.InputTracking::GetDeviceIdAtXRNode(UnityEngine.XR.XRNode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t InputTracking_GetDeviceIdAtXRNode_m3B32D160DEAD6958C077AF3E18F6D45D83CB8E03 (int32_t ___node0, const RuntimeMethod* method);
-// System.Void System.ArgumentNullException::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_m81AB157B93BFE2FBFDB08B88F84B444293042F97 (ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB * __this, String_t* ___paramName0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<UnityEngine.XR.InputDevice>::Clear()
 inline void List_1_Clear_m87CD11F78B15EED098160B9202B6433895156557 (List_1_t476C8CC2E74FC5F7DE5B5CFE6830822665402F1F * __this, const RuntimeMethod* method)
 {
@@ -4984,6 +5119,80 @@ IL2CPP_EXTERN_C  uint32_t Bone_get_featureIndex_m291227F499665BECC9D40723157367E
 	_returnValue = Bone_get_featureIndex_m291227F499665BECC9D40723157367ECB56781C3(_thisAdjusted, method);
 	return _returnValue;
 }
+// System.Boolean UnityEngine.XR.Bone::TryGetPosition(UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Bone_TryGetPosition_m261057D3419C036E0CEE6F42398398601977DD0A (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___position0, const RuntimeMethod* method)
+{
+	bool V_0 = false;
+	{
+		Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070  L_0 = (*(Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 *)__this);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * L_1 = ___position0;
+		bool L_2;
+		L_2 = Bone_Bone_TryGetPosition_m22A625B13260BE42925C1518266BBC09FD8C5FBB(L_0, (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *)L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		bool L_3 = V_0;
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  bool Bone_TryGetPosition_m261057D3419C036E0CEE6F42398398601977DD0A_AdjustorThunk (RuntimeObject * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___position0, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * _thisAdjusted = reinterpret_cast<Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 *>(__this + _offset);
+	bool _returnValue;
+	_returnValue = Bone_TryGetPosition_m261057D3419C036E0CEE6F42398398601977DD0A(_thisAdjusted, ___position0, method);
+	return _returnValue;
+}
+// System.Boolean UnityEngine.XR.Bone::Bone_TryGetPosition(UnityEngine.XR.Bone,UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Bone_Bone_TryGetPosition_m22A625B13260BE42925C1518266BBC09FD8C5FBB (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070  ___bone0, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___position1, const RuntimeMethod* method)
+{
+	{
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * L_0 = ___position1;
+		bool L_1;
+		L_1 = Bone_Bone_TryGetPosition_Injected_m44795BBEAC75C858D833DA5ACEA8741ED15967F9((Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 *)(&___bone0), (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *)L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Boolean UnityEngine.XR.Bone::TryGetRotation(UnityEngine.Quaternion&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Bone_TryGetRotation_mEB7B9EED27F1BD731F9ECB467CFC3B3A475CBF69 (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * __this, Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 * ___rotation0, const RuntimeMethod* method)
+{
+	bool V_0 = false;
+	{
+		Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070  L_0 = (*(Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 *)__this);
+		Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 * L_1 = ___rotation0;
+		bool L_2;
+		L_2 = Bone_Bone_TryGetRotation_m19A25AEFF00BF66E14D211FAEFAAF16367F8FD87(L_0, (Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 *)L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		bool L_3 = V_0;
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  bool Bone_TryGetRotation_mEB7B9EED27F1BD731F9ECB467CFC3B3A475CBF69_AdjustorThunk (RuntimeObject * __this, Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 * ___rotation0, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * _thisAdjusted = reinterpret_cast<Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 *>(__this + _offset);
+	bool _returnValue;
+	_returnValue = Bone_TryGetRotation_mEB7B9EED27F1BD731F9ECB467CFC3B3A475CBF69(_thisAdjusted, ___rotation0, method);
+	return _returnValue;
+}
+// System.Boolean UnityEngine.XR.Bone::Bone_TryGetRotation(UnityEngine.XR.Bone,UnityEngine.Quaternion&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Bone_Bone_TryGetRotation_m19A25AEFF00BF66E14D211FAEFAAF16367F8FD87 (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070  ___bone0, Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 * ___rotation1, const RuntimeMethod* method)
+{
+	{
+		Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 * L_0 = ___rotation1;
+		bool L_1;
+		L_1 = Bone_Bone_TryGetRotation_Injected_mDEE3DDC7EF60BC479C091452B6CA3B73BD1B7B04((Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 *)(&___bone0), (Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 *)L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
 // System.Boolean UnityEngine.XR.Bone::Equals(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Bone_Equals_m2FBDCFEA8B90663E546294EBEB4763538DEEA412 (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
 {
@@ -5115,6 +5324,26 @@ IL2CPP_EXTERN_C  int32_t Bone_GetHashCode_m0ED7925C274DE8439749951FBE4E4EC28A797
 	int32_t _returnValue;
 	_returnValue = Bone_GetHashCode_m0ED7925C274DE8439749951FBE4E4EC28A797BFB(_thisAdjusted, method);
 	return _returnValue;
+}
+// System.Boolean UnityEngine.XR.Bone::Bone_TryGetPosition_Injected(UnityEngine.XR.Bone&,UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Bone_Bone_TryGetPosition_Injected_m44795BBEAC75C858D833DA5ACEA8741ED15967F9 (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * ___bone0, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___position1, const RuntimeMethod* method)
+{
+	typedef bool (*Bone_Bone_TryGetPosition_Injected_m44795BBEAC75C858D833DA5ACEA8741ED15967F9_ftn) (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 *, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *);
+	static Bone_Bone_TryGetPosition_Injected_m44795BBEAC75C858D833DA5ACEA8741ED15967F9_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Bone_Bone_TryGetPosition_Injected_m44795BBEAC75C858D833DA5ACEA8741ED15967F9_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.Bone::Bone_TryGetPosition_Injected(UnityEngine.XR.Bone&,UnityEngine.Vector3&)");
+	bool icallRetVal = _il2cpp_icall_func(___bone0, ___position1);
+	return icallRetVal;
+}
+// System.Boolean UnityEngine.XR.Bone::Bone_TryGetRotation_Injected(UnityEngine.XR.Bone&,UnityEngine.Quaternion&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Bone_Bone_TryGetRotation_Injected_mDEE3DDC7EF60BC479C091452B6CA3B73BD1B7B04 (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * ___bone0, Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 * ___rotation1, const RuntimeMethod* method)
+{
+	typedef bool (*Bone_Bone_TryGetRotation_Injected_mDEE3DDC7EF60BC479C091452B6CA3B73BD1B7B04_ftn) (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 *, Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 *);
+	static Bone_Bone_TryGetRotation_Injected_mDEE3DDC7EF60BC479C091452B6CA3B73BD1B7B04_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Bone_Bone_TryGetRotation_Injected_mDEE3DDC7EF60BC479C091452B6CA3B73BD1B7B04_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.Bone::Bone_TryGetRotation_Injected(UnityEngine.XR.Bone&,UnityEngine.Quaternion&)");
+	bool icallRetVal = _il2cpp_icall_func(___bone0, ___rotation1);
+	return icallRetVal;
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -5708,6 +5937,99 @@ IL2CPP_EXTERN_C  uint32_t Hand_get_featureIndex_mB8A458180449B2C2D38D5405BA26577
 	_returnValue = Hand_get_featureIndex_mB8A458180449B2C2D38D5405BA26577CF1A60897(_thisAdjusted, method);
 	return _returnValue;
 }
+// System.Boolean UnityEngine.XR.Hand::TryGetRootBone(UnityEngine.XR.Bone&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hand_TryGetRootBone_m8E5DF1CA9963878F23AD9099E5E80399DAEC02AF (Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * __this, Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * ___boneOut0, const RuntimeMethod* method)
+{
+	bool V_0 = false;
+	{
+		Hand_tB64007EC8D01384426C93432737BA9C5F636A690  L_0 = (*(Hand_tB64007EC8D01384426C93432737BA9C5F636A690 *)__this);
+		Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * L_1 = ___boneOut0;
+		bool L_2;
+		L_2 = Hand_Hand_TryGetRootBone_m90E546876CB43AC9C98F14615ADE09497BAD75F4(L_0, (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 *)L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		bool L_3 = V_0;
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  bool Hand_TryGetRootBone_m8E5DF1CA9963878F23AD9099E5E80399DAEC02AF_AdjustorThunk (RuntimeObject * __this, Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * ___boneOut0, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * _thisAdjusted = reinterpret_cast<Hand_tB64007EC8D01384426C93432737BA9C5F636A690 *>(__this + _offset);
+	bool _returnValue;
+	_returnValue = Hand_TryGetRootBone_m8E5DF1CA9963878F23AD9099E5E80399DAEC02AF(_thisAdjusted, ___boneOut0, method);
+	return _returnValue;
+}
+// System.Boolean UnityEngine.XR.Hand::Hand_TryGetRootBone(UnityEngine.XR.Hand,UnityEngine.XR.Bone&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hand_Hand_TryGetRootBone_m90E546876CB43AC9C98F14615ADE09497BAD75F4 (Hand_tB64007EC8D01384426C93432737BA9C5F636A690  ___hand0, Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * ___boneOut1, const RuntimeMethod* method)
+{
+	{
+		Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * L_0 = ___boneOut1;
+		bool L_1;
+		L_1 = Hand_Hand_TryGetRootBone_Injected_m9E8AE2BD012365B63934A1098E68243504139F0F((Hand_tB64007EC8D01384426C93432737BA9C5F636A690 *)(&___hand0), (Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 *)L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Boolean UnityEngine.XR.Hand::TryGetFingerBones(UnityEngine.XR.HandFinger,System.Collections.Generic.List`1<UnityEngine.XR.Bone>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hand_TryGetFingerBones_mFA237811578942428A5EEA801791B1A3CE8C651A (Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * __this, int32_t ___finger0, List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5 * ___bonesOut1, const RuntimeMethod* method)
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5 * L_0 = ___bonesOut1;
+		V_0 = (bool)((((RuntimeObject*)(List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5 *)L_0) == ((RuntimeObject*)(RuntimeObject *)NULL))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB * L_2 = (ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB_il2cpp_TypeInfo_var)));
+		ArgumentNullException__ctor_m81AB157B93BFE2FBFDB08B88F84B444293042F97(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralD8A2F5BF2E135F1890B100839FD2F3B05AC1F1EE)), /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Hand_TryGetFingerBones_mFA237811578942428A5EEA801791B1A3CE8C651A_RuntimeMethod_var)));
+	}
+
+IL_0014:
+	{
+		Hand_tB64007EC8D01384426C93432737BA9C5F636A690  L_3 = (*(Hand_tB64007EC8D01384426C93432737BA9C5F636A690 *)__this);
+		int32_t L_4 = ___finger0;
+		List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5 * L_5 = ___bonesOut1;
+		bool L_6;
+		L_6 = Hand_Hand_TryGetFingerBonesAsList_mF452C2FB21FB75E3CEEF9992672EAD8184023ACB(L_3, L_4, L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		goto IL_0024;
+	}
+
+IL_0024:
+	{
+		bool L_7 = V_1;
+		return L_7;
+	}
+}
+IL2CPP_EXTERN_C  bool Hand_TryGetFingerBones_mFA237811578942428A5EEA801791B1A3CE8C651A_AdjustorThunk (RuntimeObject * __this, int32_t ___finger0, List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5 * ___bonesOut1, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * _thisAdjusted = reinterpret_cast<Hand_tB64007EC8D01384426C93432737BA9C5F636A690 *>(__this + _offset);
+	bool _returnValue;
+	_returnValue = Hand_TryGetFingerBones_mFA237811578942428A5EEA801791B1A3CE8C651A(_thisAdjusted, ___finger0, ___bonesOut1, method);
+	return _returnValue;
+}
+// System.Boolean UnityEngine.XR.Hand::Hand_TryGetFingerBonesAsList(UnityEngine.XR.Hand,UnityEngine.XR.HandFinger,System.Collections.Generic.List`1<UnityEngine.XR.Bone>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hand_Hand_TryGetFingerBonesAsList_mF452C2FB21FB75E3CEEF9992672EAD8184023ACB (Hand_tB64007EC8D01384426C93432737BA9C5F636A690  ___hand0, int32_t ___finger1, List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5 * ___bonesOut2, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___finger1;
+		List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5 * L_1 = ___bonesOut2;
+		bool L_2;
+		L_2 = Hand_Hand_TryGetFingerBonesAsList_Injected_mE2F7FD42C27F1EB51232E1DC04E7588AFC6B0485((Hand_tB64007EC8D01384426C93432737BA9C5F636A690 *)(&___hand0), L_0, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
 // System.Boolean UnityEngine.XR.Hand::Equals(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hand_Equals_m727113281F30E554A3A60DEFC4ED61CC94901775 (Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
 {
@@ -5840,6 +6162,34 @@ IL2CPP_EXTERN_C  int32_t Hand_GetHashCode_mFC8C4732F0B728122C3ABCC623699DA7E47D1
 	_returnValue = Hand_GetHashCode_mFC8C4732F0B728122C3ABCC623699DA7E47D1CCB(_thisAdjusted, method);
 	return _returnValue;
 }
+// System.Boolean UnityEngine.XR.Hand::Hand_TryGetRootBone_Injected(UnityEngine.XR.Hand&,UnityEngine.XR.Bone&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hand_Hand_TryGetRootBone_Injected_m9E8AE2BD012365B63934A1098E68243504139F0F (Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * ___hand0, Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 * ___boneOut1, const RuntimeMethod* method)
+{
+	typedef bool (*Hand_Hand_TryGetRootBone_Injected_m9E8AE2BD012365B63934A1098E68243504139F0F_ftn) (Hand_tB64007EC8D01384426C93432737BA9C5F636A690 *, Bone_t8EDF2FA2139528015195AF2EA866A28947C3F070 *);
+	static Hand_Hand_TryGetRootBone_Injected_m9E8AE2BD012365B63934A1098E68243504139F0F_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Hand_Hand_TryGetRootBone_Injected_m9E8AE2BD012365B63934A1098E68243504139F0F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.Hand::Hand_TryGetRootBone_Injected(UnityEngine.XR.Hand&,UnityEngine.XR.Bone&)");
+	bool icallRetVal = _il2cpp_icall_func(___hand0, ___boneOut1);
+	return icallRetVal;
+}
+// System.Boolean UnityEngine.XR.Hand::Hand_TryGetFingerBonesAsList_Injected(UnityEngine.XR.Hand&,UnityEngine.XR.HandFinger,System.Collections.Generic.List`1<UnityEngine.XR.Bone>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hand_Hand_TryGetFingerBonesAsList_Injected_mE2F7FD42C27F1EB51232E1DC04E7588AFC6B0485 (Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * ___hand0, int32_t ___finger1, List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5 * ___bonesOut2, const RuntimeMethod* method)
+{
+	typedef bool (*Hand_Hand_TryGetFingerBonesAsList_Injected_mE2F7FD42C27F1EB51232E1DC04E7588AFC6B0485_ftn) (Hand_tB64007EC8D01384426C93432737BA9C5F636A690 *, int32_t, List_1_t21F7B14C2562AC8557927E01902D192C8CFBCBE5 *);
+	static Hand_Hand_TryGetFingerBonesAsList_Injected_mE2F7FD42C27F1EB51232E1DC04E7588AFC6B0485_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Hand_Hand_TryGetFingerBonesAsList_Injected_mE2F7FD42C27F1EB51232E1DC04E7588AFC6B0485_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.Hand::Hand_TryGetFingerBonesAsList_Injected(UnityEngine.XR.Hand&,UnityEngine.XR.HandFinger,System.Collections.Generic.List`1<UnityEngine.XR.Bone>)");
+	bool icallRetVal = _il2cpp_icall_func(___hand0, ___finger1, ___bonesOut2);
+	return icallRetVal;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -6948,6 +7298,60 @@ IL2CPP_EXTERN_C  bool InputDevice_TryGetFeatureValue_mD5DCBE5046B0EAF63A26EB4DF5
 	_returnValue = InputDevice_TryGetFeatureValue_mD5DCBE5046B0EAF63A26EB4DF5AE46030C18F7A0(_thisAdjusted, ___usage0, ___value1, method);
 	return _returnValue;
 }
+// System.Boolean UnityEngine.XR.InputDevice::TryGetFeatureValue(UnityEngine.XR.InputFeatureUsage`1<UnityEngine.XR.Hand>,UnityEngine.XR.Hand&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_TryGetFeatureValue_mC71ECD9D8F61BB5D594DD9DFB33D1ED86698EC0D (InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E * __this, InputFeatureUsage_1_tE0761BFB6E30AE61DA99E3B1974C8A2B784A335E  ___usage0, Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * ___value1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputDevice_CheckValidAndSetDefault_TisHand_tB64007EC8D01384426C93432737BA9C5F636A690_m1214B55371211E71DCC5324899D8201E8B88F3A8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputFeatureUsage_1_get_name_m7F9935014B362A751B6B8BFD7B6365A530A2883C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * L_0 = ___value1;
+		bool L_1;
+		L_1 = InputDevice_CheckValidAndSetDefault_TisHand_tB64007EC8D01384426C93432737BA9C5F636A690_m1214B55371211E71DCC5324899D8201E8B88F3A8((InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E *)__this, (Hand_tB64007EC8D01384426C93432737BA9C5F636A690 *)L_0, /*hidden argument*/InputDevice_CheckValidAndSetDefault_TisHand_tB64007EC8D01384426C93432737BA9C5F636A690_m1214B55371211E71DCC5324899D8201E8B88F3A8_RuntimeMethod_var);
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		uint64_t L_3 = __this->get_m_DeviceId_1();
+		String_t* L_4;
+		L_4 = InputFeatureUsage_1_get_name_m7F9935014B362A751B6B8BFD7B6365A530A2883C_inline((InputFeatureUsage_1_tE0761BFB6E30AE61DA99E3B1974C8A2B784A335E *)(&___usage0), /*hidden argument*/InputFeatureUsage_1_get_name_m7F9935014B362A751B6B8BFD7B6365A530A2883C_RuntimeMethod_var);
+		Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * L_5 = ___value1;
+		bool L_6;
+		L_6 = InputDevices_TryGetFeatureValue_XRHand_m8C6562E01E779A2AE439B88BF2DBC20324370BB2(L_3, L_4, (Hand_tB64007EC8D01384426C93432737BA9C5F636A690 *)L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		goto IL_0026;
+	}
+
+IL_0022:
+	{
+		V_1 = (bool)0;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		bool L_7 = V_1;
+		return L_7;
+	}
+}
+IL2CPP_EXTERN_C  bool InputDevice_TryGetFeatureValue_mC71ECD9D8F61BB5D594DD9DFB33D1ED86698EC0D_AdjustorThunk (RuntimeObject * __this, InputFeatureUsage_1_tE0761BFB6E30AE61DA99E3B1974C8A2B784A335E  ___usage0, Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * ___value1, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E * _thisAdjusted = reinterpret_cast<InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E *>(__this + _offset);
+	bool _returnValue;
+	_returnValue = InputDevice_TryGetFeatureValue_mC71ECD9D8F61BB5D594DD9DFB33D1ED86698EC0D(_thisAdjusted, ___usage0, ___value1, method);
+	return _returnValue;
+}
 // System.Boolean UnityEngine.XR.InputDevice::TryGetFeatureValue(UnityEngine.XR.InputFeatureUsage`1<UnityEngine.XR.InputTrackingState>,UnityEngine.XR.InputTrackingState&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_TryGetFeatureValue_m64CA9CE33B12A117D903F11373D5A4B3BC479497 (InputDevice_t69B790C68145C769BA3819DE33AA94155C77207E * __this, InputFeatureUsage_1_t6C373EE0FA4FD8646D31410FB0FD222C5C1E9E65  ___usage0, uint32_t* ___value1, const RuntimeMethod* method)
 {
@@ -7750,6 +8154,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevices_TryGetFeatureValue_Quaterni
 	bool icallRetVal = _il2cpp_icall_func(___deviceId0, ___usage1, ___value2);
 	return icallRetVal;
 }
+// System.Boolean UnityEngine.XR.InputDevices::TryGetFeatureValue_XRHand(System.UInt64,System.String,UnityEngine.XR.Hand&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevices_TryGetFeatureValue_XRHand_m8C6562E01E779A2AE439B88BF2DBC20324370BB2 (uint64_t ___deviceId0, String_t* ___usage1, Hand_tB64007EC8D01384426C93432737BA9C5F636A690 * ___value2, const RuntimeMethod* method)
+{
+	typedef bool (*InputDevices_TryGetFeatureValue_XRHand_m8C6562E01E779A2AE439B88BF2DBC20324370BB2_ftn) (uint64_t, String_t*, Hand_tB64007EC8D01384426C93432737BA9C5F636A690 *);
+	static InputDevices_TryGetFeatureValue_XRHand_m8C6562E01E779A2AE439B88BF2DBC20324370BB2_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (InputDevices_TryGetFeatureValue_XRHand_m8C6562E01E779A2AE439B88BF2DBC20324370BB2_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.InputDevices::TryGetFeatureValue_XRHand(System.UInt64,System.String,UnityEngine.XR.Hand&)");
+	bool icallRetVal = _il2cpp_icall_func(___deviceId0, ___usage1, ___value2);
+	return icallRetVal;
+}
 // System.Boolean UnityEngine.XR.InputDevices::IsDeviceValid(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevices_IsDeviceValid_m1752F226E5552BE398A8EAD41A131E8A5D6F9E47 (uint64_t ___deviceId0, const RuntimeMethod* method)
 {
@@ -8144,15 +8558,6 @@ IL_0093:
 	{
 		return;
 	}
-}
-// System.Void UnityEngine.XR.InputTracking::Recenter()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputTracking_Recenter_m7C6E01B6C6989D6972E4C35CB98371C5652EC22E (const RuntimeMethod* method)
-{
-	typedef void (*InputTracking_Recenter_m7C6E01B6C6989D6972E4C35CB98371C5652EC22E_ftn) ();
-	static InputTracking_Recenter_m7C6E01B6C6989D6972E4C35CB98371C5652EC22E_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (InputTracking_Recenter_m7C6E01B6C6989D6972E4C35CB98371C5652EC22E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.InputTracking::Recenter()");
-	_il2cpp_icall_func();
 }
 // System.Void UnityEngine.XR.InputTracking::GetNodeStates(System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputTracking_GetNodeStates_m0C47A6D099EE6EAC2D64B2D1D23DA72E4D42B880 (List_1_t82E4873F3D4F1E8645F8EAD444668DC81AB70671 * ___nodeStates0, const RuntimeMethod* method)
@@ -9093,6 +9498,16 @@ IL_001b:
 	{
 		return;
 	}
+}
+// System.Boolean UnityEngine.XR.XRDisplaySubsystem::get_displayOpaque()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRDisplaySubsystem_get_displayOpaque_m2EC8ECB705E0F250C8D27E06BF4C57D5F77FC02F (XRDisplaySubsystem_tF8B46605B6D1199C52306D4EC7D83CFA90564A93 * __this, const RuntimeMethod* method)
+{
+	typedef bool (*XRDisplaySubsystem_get_displayOpaque_m2EC8ECB705E0F250C8D27E06BF4C57D5F77FC02F_ftn) (XRDisplaySubsystem_tF8B46605B6D1199C52306D4EC7D83CFA90564A93 *);
+	static XRDisplaySubsystem_get_displayOpaque_m2EC8ECB705E0F250C8D27E06BF4C57D5F77FC02F_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (XRDisplaySubsystem_get_displayOpaque_m2EC8ECB705E0F250C8D27E06BF4C57D5F77FC02F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRDisplaySubsystem::get_displayOpaque()");
+	bool icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
 }
 // System.Void UnityEngine.XR.XRDisplaySubsystem::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRDisplaySubsystem__ctor_mCC516BAAAC7175CC9CEECA04E488F5D9BF0FB774 (XRDisplaySubsystem_tF8B46605B6D1199C52306D4EC7D83CFA90564A93 * __this, const RuntimeMethod* method)
@@ -10137,6 +10552,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputFeatureUsage_1_get
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputFeatureUsage_1_get_name_m3C10F5DE7985A0C8DAFEBBB452E36FA42143DE30_gshared_inline (InputFeatureUsage_1_t152DE78832E6E5157647309AA0BF7CFC75F44A49 * __this, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = (String_t*)__this->get_U3CnameU3Ek__BackingField_0();
+		return (String_t*)L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputFeatureUsage_1_get_name_m7F9935014B362A751B6B8BFD7B6365A530A2883C_gshared_inline (InputFeatureUsage_1_tE0761BFB6E30AE61DA99E3B1974C8A2B784A335E * __this, const RuntimeMethod* method)
 {
 	{
 		String_t* L_0 = (String_t*)__this->get_U3CnameU3Ek__BackingField_0();
