@@ -78,7 +78,7 @@ crashlytics-build.properties
 *.slo
 *.lo
 *.o
-*.obj
+#*.obj
 
 # Precompiled Headers
 *.gch
