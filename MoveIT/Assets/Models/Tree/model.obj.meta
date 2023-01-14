@@ -1,24 +1,9 @@
 fileFormatVersion: 2
-guid: f754429b780f3405d9b7fe018cf97ba4
+guid: 6b80e2bd7a5bb4aa59d0d0cd7267f444
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Body
-    second: {fileID: 2100000, guid: a5469d0bf0d2849179780f08b6c5a1bc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Glass
-    second: {fileID: 2100000, guid: ca682b4bf70824735859cf32c8f2e0dc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Headset
-    second: {fileID: 2100000, guid: 4f18c5fbb84184a3f9c40c087e236fc6, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
