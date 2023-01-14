@@ -8,6 +8,8 @@ public class AcornController : MonoBehaviour
     private GameObject target;
     public AcornSpawner acornSpawner;
     [SerializeField] private Vector3 forceVector = new Vector3(150f, 100f, 0f);
+    [SerializeField] private float rotationRate = 1.0f;
+    private float randRotRate;
     
  
     // Start is called before the first frame update
@@ -16,16 +18,23 @@ public class AcornController : MonoBehaviour
         target = GameObject.FindGameObjectWithTag("MainCamera");
         Rigidbody rb;
         transform.LookAt(target.transform);
-        transform.Rotate(new Vector3(0, 90, 0));
+        transform.Rotate(new Vector3(0, -90, 0));
+
+        var transformedForce = transform.TransformDirection(forceVector);
+
         rb = GetComponent<Rigidbody>();
-        rb.AddRelativeForce(forceVector);
+        //rb.AddRelativeForce(forceVector);
+        rb.AddForce(transformedForce);
         Physics.IgnoreCollision(GetComponent<Collider>(), acornSpawner.GetComponent<Collider>(), true);
+        Physics.gravity = new Vector3(0, -1, 0);
+        randRotRate = Random.Range(-rotationRate,rotationRate);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Rotate(randRotRate, randRotRate, randRotRate);
     }
 
     private void OnCollisionEnter(Collision collision)
