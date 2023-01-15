@@ -8,6 +8,6 @@ public class ChangeScene : MonoBehaviour
     // Start is called before the first frame update
     public void DoSceneChange()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Squirrel Game");
     }
 }

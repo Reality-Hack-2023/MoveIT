@@ -9,10 +9,34 @@ public class GopherController : MonoBehaviour
     [SerializeField] private Transform[] waypoints;
     [SerializeField] private Transform[] closestWaypoints;
     [SerializeField] private float speed = 3.0f;
+    public bool isAlive = true;
+
+    // private SpacesHandManager spacesHandManager;
+
+    // public void SubscribeToEvents() 
+    // {
+    //     spacesHandManager.handsChanged += onHandsChanged;
+    // }
+
+    // public void UnsubscribeFromEvents() 
+    // {
+    //     spacesHandManager.handsChanged -= onHandsChanged;
+    // }
+
+    // void onHandsChanged(SpacesHandsChangedEventArgs hands) 
+    // {
+    //     foreach (var hand in hands.updated)
+    //     {
+    //         if (hand.CurrentGesture.Type == SpacesHand.GestureType.GRAB && )
+    //         {
+
+    //         }
+    //     }
+    // }
 
     IEnumerator Start()
     {
-        while (true)
+        while (isAlive == true)
         {
             // Find the four closest waypoints
             //closestWaypoints = FindClosestWaypoints();
@@ -80,4 +104,9 @@ public class GopherController : MonoBehaviour
         // Return the closest waypoints
         return closestWaypoints;
     }
+
+    public void killGopher() {
+        isAlive = false;
+    }
 }
+

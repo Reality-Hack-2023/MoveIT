@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu.unity
     guid: 52557a8b72477254ea0bbac9c5faf504
   - enabled: 0
     path: Assets/Scenes/Test Scene Loading/Game.unity
     guid: f879c028ed937d94084f356ba6c4d8bf
+  - enabled: 0
+    path: Assets/Scenes/Gopher Menu Test.unity
+    guid: 897088a35fb6511419667ee0234d1e90
   - enabled: 1
     path: Assets/Scenes/Squirrel Game.unity
     guid: 7f6052019a1504ac09ac3e728b12dd65
