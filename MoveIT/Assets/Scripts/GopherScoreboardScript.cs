@@ -8,6 +8,7 @@ using static UnityEngine.UIElements.UxmlAttributeDescription;
 
 public class GopherScoreboardScript : MonoBehaviour
 {
+    [SerializeField] public GameObject gopher;
     public float timeRemaining = 30;
     [SerializeField] private TMP_Text sText;
     private string timer = "";
@@ -40,6 +41,8 @@ public class GopherScoreboardScript : MonoBehaviour
                 timer = "Time's up!";
                 timeRemaining = 0;
                 timerIsRunning = false;
+                gopher.GetComponent<GopherController>().killGopher();
+                
             }
         }
         
