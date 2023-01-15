@@ -4,7 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Gopher Game.unity
+    guid: 347acf09fc4ee462cbde07afcca66123
   m_configObjects:
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: b23651f7dcbc3094cbd395c21bdd7b57, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 68024c87d36fce3489ba413302a508a5, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 859b7f2f927920048b428cce4ae15d03, type: 2}
