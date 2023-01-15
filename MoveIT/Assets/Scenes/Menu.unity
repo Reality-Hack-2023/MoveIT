@@ -268,7 +268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6749087001740833529, guid: d4fe393ddf00c2649b6adf4ce670c7a6, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7196047541291396531, guid: d4fe393ddf00c2649b6adf4ce670c7a6, type: 3}
       propertyPath: leftHandPresenter

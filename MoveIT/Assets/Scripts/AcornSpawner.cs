@@ -5,11 +5,9 @@ using UnityEngine;
 public class AcornSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject acorn;
-    [SerializeField] private GameObject scoreboard;
     [SerializeField] private float time = 0.0f;
     [SerializeField] private float timeInterval = 2.0f;
     public int acornsFell = 0;
-    public int acornsHit = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -32,9 +30,7 @@ public class AcornSpawner : MonoBehaviour
 
             GameObject acornObject = GameObject.Instantiate(acorn);
             var controller = acornObject.GetComponent<AcornController>();
-            var controller2 = scoreboard.GetComponent<ScoreboardController>();
             controller.acornSpawner = this;
-            controller2.acornSpawner = this;
             acornObject.transform.position = bounds.center + new Vector3(offsetX, offsetY, offsetZ);
 
         }
