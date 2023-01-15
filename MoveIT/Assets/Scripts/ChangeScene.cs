@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class ChangeScene : MonoBehaviour
 {
     // Start is called before the first frame update
-    public void DoSceneChange()
+    public void DoSceneChange(string SceneName)
     {
-        SceneManager.LoadScene("Squirrel Game");
+        SceneManager.LoadScene(SceneName);
     }
 }
