@@ -8,6 +8,6 @@ public class ChangeScene : MonoBehaviour
     // Start is called before the first frame update
     public void DoSceneChange(string SceneName)
     {
-        SceneManager.LoadScene(SceneName);
+        SceneManager.LoadScene(SceneName, LoadSceneMode.Additive);
     }
 }
