@@ -1,0 +1,296 @@
+<REAPER_PROJECT 0.1 "6.61/win64" 1673739125
+  <NOTES 0 2
+  >
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 3
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 0.5
+  ZOOM 254.86323920150502 0 0
+  VZOOMEX 32 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "" ""
+  <RECORD_CFG
+    ZXZhdxgAAA==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN ""
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    ZXZhdxgAAA==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 1.5 2
+  SELECTION2 1.5 2
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 -1 -1 -1 0 0 0 -1 -1 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {C307FCB4-505D-44C9-93E0-359D4FE2B74E}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {ABDFE09F-A0F8-4E17-8482-6D67B631001A}
+    ACT 1 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK {3D80475C-8E7E-46ED-BDF5-7F0C15D77BD9}
+    NAME "windows game mode shortcut - Google Search - Google Chrome 2023-01-14 18-06-52"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {3D80475C-8E7E-46ED-BDF5-7F0C15D77BD9}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.83732208112736
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {9477FE8A-1B46-4FC0-9A9A-170433F26A37}
+      IID 1
+      NAME "windows game mode shortcut - Google Search - Google Chrome 2023-01-14 18-06-52.mp4"
+      VOLPAN 1 0 1 -1
+      SOFFS 3
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {266F8861-6D0B-4DC2-A9F0-2F9B1B29B572}
+      <SOURCE VIDEO
+        FILE "C:\Users\sophi\Videos\Captures\windows game mode shortcut - Google Search - Google Chrome 2023-01-14 18-06-52.mp4"
+      >
+    >
+    <ITEM
+      POSITION 9
+      SNAPOFFS 0
+      LENGTH 0.87918585538057
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9059375A-66D8-4FD1-8361-9165CEC983B9}
+      IID 1
+      NAME "windows game mode shortcut - Google Search - Google Chrome 2023-01-14 18-06-52.mp4"
+      VOLPAN 1 0 1 -1
+      SOFFS 3.83732208112736
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EA5C0D74-6910-4DE5-932A-D60DCCBC9FE3}
+      <SOURCE VIDEO
+        FILE "C:\Users\sophi\Videos\Captures\windows game mode shortcut - Google Search - Google Chrome 2023-01-14 18-06-52.mp4"
+      >
+    >
+  >
+  <TRACK {48428967-16F5-489D-9F8B-3541D18DE148}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {48428967-16F5-489D-9F8B-3541D18DE148}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 1.5
+      SNAPOFFS 0
+      LENGTH 0.57873015873016
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3330324F-4DDA-4A6A-9C13-11833C9EEC7C}
+      IID 1
+      NAME "windows game mode shortcut - Google Search - Google Chrome 2023-01-14 18-06-52.mp4"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.71650793650794
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6D6F2B6E-F8C0-4032-A83B-6707FBAC959D}
+      <SOURCE VIDEO
+        FILE "C:\Users\sophi\Videos\Captures\windows game mode shortcut - Google Search - Google Chrome 2023-01-14 18-06-52.mp4"
+      >
+    >
+    <ITEM
+      POSITION 2.57873015873016
+      SNAPOFFS 0
+      LENGTH 0.66077097505669
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {ECBC73B3-2D87-4B18-8E58-25B137F6454F}
+      IID 1
+      NAME "windows game mode shortcut - Google Search - Google Chrome 2023-01-14 18-06-52.mp4"
+      VOLPAN 1 0 1 -1
+      SOFFS 5.2952380952381
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {629061C0-FDA6-42F8-A38B-A9DCB5B0DC41}
+      <SOURCE VIDEO
+        FILE "C:\Users\sophi\Videos\Captures\windows game mode shortcut - Google Search - Google Chrome 2023-01-14 18-06-52.mp4"
+      >
+    >
+    <ITEM
+      POSITION 3.5
+      SNAPOFFS 0
+      LENGTH 1.64684807256234
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DBD819A7-FAD4-46C1-83DB-84F57326CB72}
+      IID 1
+      NAME "windows game mode shortcut - Google Search - Google Chrome 2023-01-14 18-06-52.mp4"
+      VOLPAN 1 0 1 -1
+      SOFFS 5.95600907029479
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1644D215-2C10-4557-B65C-8F9971C27325}
+      <SOURCE VIDEO
+        FILE "C:\Users\sophi\Videos\Captures\windows game mode shortcut - Google Search - Google Chrome 2023-01-14 18-06-52.mp4"
+      >
+    >
+    <ITEM
+      POSITION 6
+      SNAPOFFS 0
+      LENGTH 1.33414965986393
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3E6A284F-893D-4528-9D11-5687A806161E}
+      IID 1
+      NAME "windows game mode shortcut - Google Search - Google Chrome 2023-01-14 18-06-52.mp4"
+      VOLPAN 1 0 1 -1
+      SOFFS 7.60285714285712
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {03429BC4-8D3C-456B-B566-739597DAE157}
+      <SOURCE VIDEO
+        FILE "C:\Users\sophi\Videos\Captures\windows game mode shortcut - Google Search - Google Chrome 2023-01-14 18-06-52.mp4"
+      >
+    >
+    <ITEM
+      POSITION 8
+      SNAPOFFS 0
+      LENGTH 0.56299319727895
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A1BDAECB-7CAD-4E07-8A0B-0EC86AEF4B36}
+      IID 1
+      NAME "windows game mode shortcut - Google Search - Google Chrome 2023-01-14 18-06-52.mp4"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.93700680272105
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {10360829-F1A3-4616-883D-C8332BD6A045}
+      <SOURCE VIDEO
+        FILE "C:\Users\sophi\Videos\Captures\windows game mode shortcut - Google Search - Google Chrome 2023-01-14 18-06-52.mp4"
+      >
+    >
+  >
+>
