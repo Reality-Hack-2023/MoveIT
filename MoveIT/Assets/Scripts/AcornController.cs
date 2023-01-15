@@ -46,5 +46,10 @@ public class AcornController : MonoBehaviour
             Destroy(this.gameObject);
             acornSpawner.acornsFell++;
         }
+        if (collision.gameObject.name == "AcornBodyCollider")
+        {
+            Destroy(this.gameObject);
+            acornSpawner.acornsHit++;
+        }
     }
 }
