@@ -10,6 +10,7 @@ public class GopherController : MonoBehaviour
     [SerializeField] private Transform[] closestWaypoints;
     [SerializeField] private float speed = 3.0f;
     public bool isAlive = true;
+    public GopherScoreboardScript gopherScript;
 
     // private SpacesHandManager spacesHandManager;
 
